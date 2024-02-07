@@ -1,6 +1,6 @@
 ---
 import BaseHead from '../components/BaseHead.astro';
-import Header from '../components/Header.astro';
+// import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 
 const SITE_TITLE = "Lukas Belka - Data Analyst and Analytics Developer";
@@ -13,21 +13,33 @@ const SITE_DESCRIPTION = "Welcome to my website about Data Analytics and Develop
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 	</head>
 	<body>
-		<Header title={SITE_TITLE} />
+		<title>Lukas Belka</title>
 		<main>
+			<img class="inline w-1/4" src="/lukas.png" alt="Lukas">
 			<h1>Lukas Belka</h1>
 			<p>
-				Hi, I'm Lukas a multidisciplined certified Data Analyst and Analytics Developer who works in the insurance industry. My focus is
-				on the whole data end-to-end data process from Data Modeling to Data Engineering to Data Analytics. Before I started programming
-				and wrangling data, I worked as a project manager in the primary and reinsurance industry for more than a decade.
+				Hi, I'm Lukas and I work as an Analytics Developer in the insurance industry.
+				Today it is my job to make data human-friendly and readable, with a focus on
+				data analytics and application programming. I do mainly code in Python and R (Shiny).
+				In 2020 I started to intensify working with data and got more and more into programming.
+				Since 2023 I am a certified Data Analyst Professional and I hold the Data Modeling Certification
+				of the DMI (Data Modeling Institute).
 			</p>
 			<p>
-				At work I use mainly R (Shiny-App) and SQL (Snowflake, DBeaver) and I support my colleagues in Power BI.
-				Python is my favourite for data cleaning and data transformation as well as for my own projects.
-				Finally I like JavaScript and the D3 library which is why I am tinkering with web development as well.
+				Data was not always my focus. For more than ten years I have managed projects in the primary and
+				reinsurance industry and most recently from 2018 to 2020 I managed the PMO of a large
+				IT-transformation project in order to restructure the whole organizytion from a classical
+				PM-approach into an agile way of working according to the SAFe framework.
 			</p>
 			<p>
-				You can read more <a href="/about">about me</a> or screen <a href="/blog">my blog</a>.
+				During this time, I realised that I wanted to become more professional in handling data.
+				Instead of linking numerous Excel files via references, drawing gannt charts with Think Cell
+				and reporting figures using .ppt slides, I wanted to automate as much as possible, provide
+				insights via dashboards and populate databases via user interfaces.
+			</p>
+			<p>
+				As I've been always keen on IT and web technologies, I learnt Python and became good in SQL.
+				The more I programmed, the more I learnt - today I enjoy working with tools like Snowflake and dbt or PySpark.
 			</p>
 		</main>
 		<Footer>
