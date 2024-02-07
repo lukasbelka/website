@@ -1,0 +1,36 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+const SITE_TITLE = "Lukas Belka - Data Analyst and Analytics Developer";
+const SITE_DESCRIPTION = "Welcome to my website about Data Analytics and Development";
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header title={SITE_TITLE} />
+		<main>
+			<h1>Lukas Belka</h1>
+			<p>
+				Hi, I'm Lukas a multidisciplined certified Data Analyst and Analytics Developer who works in the insurance industry. My focus is
+				on the whole data end-to-end data process from Data Modeling to Data Engineering to Data Analytics. Before I started programming
+				and wrangling data, I worked as a project manager in the primary and reinsurance industry for more than a decade.
+			</p>
+			<p>
+				At work I use mainly R (Shiny-App) and SQL (Snowflake, DBeaver) and I support my colleagues in Power BI.
+				Python is my favourite for data cleaning and data transformation as well as for my own projects.
+				Finally I like JavaScript and the D3 library which is why I am tinkering with web development as well.
+			</p>
+			<p>
+				You can read more <a href="/about">about me</a> or screen <a href="/blog">my blog</a>.
+			</p>
+		</main>
+		<Footer>
+		<Footer />
+	</body>
+</html>
