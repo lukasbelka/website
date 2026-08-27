@@ -1,5 +1,5 @@
 {
-  "name": "astro-scholar",
+  "name": "website",
   "type": "module",
   "version": "1.0.0",
   "description": "A modern, elegant academic website template built with Astro for researchers, academics, and scholars",
@@ -19,7 +19,7 @@
   "author": "whydevils",
   "repository": {
     "type": "git",
-    "url": "https://github.com/whydevils/astro-scholar"
+    "url": "git+https://github.com/whydevils/astro-scholar.git"
   },
   "scripts": {
     "dev": "astro dev",
@@ -28,6 +28,11 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^6.1.9"
-  }
+    "astro": "^7.2.8"
+  },
+  "bugs": {
+    "url": "https://github.com/whydevils/astro-scholar/issues"
+  },
+  "homepage": "https://github.com/whydevils/astro-scholar#readme",
+  "main": "index.js"
 }
