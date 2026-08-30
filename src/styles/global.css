@@ -105,7 +105,7 @@ p a:active,
 :root {
     /* Colors - Day Mode */
     --color-primary: #1a1a1a;
-    --color-accent-base: #0d9488;
+    --color-accent-base: #005b96;
     --color-accent: var(--color-accent-base);
     --color-text: #1a1a1a;
     --color-text-muted: #666;
