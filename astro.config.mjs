@@ -3,6 +3,6 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://whydevils.github.io',
+  site: 'https://www.lukasbelka.com',
   base: '/',
 });
