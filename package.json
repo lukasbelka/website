@@ -2,24 +2,17 @@
   "name": "website",
   "type": "module",
   "version": "1.0.0",
-  "description": "A modern, elegant academic website template built with Astro for researchers, academics, and scholars",
+  "description": "Personal website of Lukas Belka, an insurance and reinsurance expert focusing agentic ai.",
   "keywords": [
     "astro",
-    "template",
-    "academic",
-    "researcher",
-    "portfolio",
-    "publications",
-    "scholar",
-    "scientist",
-    "cv",
-    "resume"
+    "personal website",
+    "portfolio"
   ],
   "license": "MIT",
-  "author": "whydevils",
+  "author": "lukasbelka",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/whydevils/astro-scholar.git"
+    "url": "git+https://github.com/lukasbelka/website.git"
   },
   "scripts": {
     "dev": "astro dev",
@@ -28,11 +21,6 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^7.2.8"
-  },
-  "bugs": {
-    "url": "https://github.com/whydevils/astro-scholar/issues"
-  },
-  "homepage": "https://github.com/whydevils/astro-scholar#readme",
-  "main": "index.js"
+    "astro": "^7.2.9"
+  }
 }
