@@ -7,9 +7,6 @@ const { name, tagline, twitter, linkedin, scholar, email } = Astro.props;
 
 <section class="hero">
   <div class="hero-content">
-    <div class="portrait-container">
-      <Image src={portraitImage} alt={name} class="portrait" />
-    </div>
     <div class="hero-text">
       <h1>{name}</h1>
       <p class="tagline">{tagline}</p>

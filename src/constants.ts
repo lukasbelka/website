@@ -9,7 +9,7 @@ export const SITE_DATA = {
     name: 'Lukas Belka',
 
     // A brief tagline describing your role or expertise (3-5 words/phrases)
-    tagline: "Insurance Professional | Senior Consultant Data and Analytics",
+    tagline: "I support reinsurers and primary carriers turn fragmented, multi-entity insurance data into reliable data products, and work on Agentic AI throughout the insurance value chain.",
 
     // Social media handles (username only, not full URL)
     // Set to empty string "" to hide an icon
