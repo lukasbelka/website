@@ -1,0 +1,61 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Hero from '../components/Hero.astro';
+import { SITE_DATA } from '../constants';
+import dmcCert from '../assets/data-modeling-certification-2023-lukas.webp';
+import cdaCert from '../assets/data-analyst-professional-certification-2023-lukas.webp';
+import '../styles/home.css';
+---
+
+<Layout pageTitle="">
+	<Hero 
+		name={SITE_DATA.name} 
+		tagline={SITE_DATA.tagline} 
+		twitter={SITE_DATA.twitter}
+		linkedin={SITE_DATA.linkedin}
+		scholar={SITE_DATA.scholar}
+		email={SITE_DATA.email}
+	/>
+	<section>
+		<hr class="experience-hr">
+        <ul class="custom-list">
+               <li>
+                	<span class="list-item-title">Reinsurance and primary insurance operations since 2009</span>
+                </li>
+                <li>
+                    <span class="list-item-title">Data Models, pipelines and products since 2020</span>
+					<span class="list-item-description">DMC - Data Modeling Certification <a href={dmcCert.src} target="_blank" rel="noopener noreferrer">(certified since 2023)</a></span>
+                    <span class="list-item-description">Certified Data Analyst Professional <a href={cdaCert.src} target="_blank" rel="noopener noreferrer">(certified since 2023)</a></span>
+                </li>
+                <li>
+                    <span class="list-item-title">Agentic AI on insurance processes since 2025, currently
+						CLI-based underwriting submission checks against guidelines. 
+					</span>
+				</li>
+        </ul>
+    </section>
+	<section>
+		<div class="experience-div">
+			<h2>Experience</h2>
+            <h3>Insurance operating experience</h3>
+            <p>Headed the PMO of an international IT transformation programme with 300+ people and a budget of EUR 60m+ at
+			   a global industrial P&C carrier. PMO fully supported the transformation of the organisation's classical waterfall
+			   project management approach into an agile way of working and established a single delivery cadence across the entire organisation.  
+			</p>
+    	</div>
+		<div class="experience-div">
+            <h3>Data Products</h3>
+            <p>Owned the models (generic, logical and physical) and pipelines (Snowflake, dbt, SQL/Python
+			   and Power Query) for budget, LoB, premium and claims performance reporting across multiple international entities.
+			   Replaced monthly manual extracts with daily dashboards used by C-level, including the Global P&C head.  
+			</p>
+    	</div>
+		<div class="experience-div">
+            <h3>Agentic AI</h3>
+            <p>Since 2025 I have been applying agentic AI to insurance business processes. My current work is on a
+			   reusable skill that checks submission documents against underwriting guidelines and returns structured feedback.
+			   It is in lab stage with a human still in the loop - a public install path will follow.
+			</p>
+    	</div>
+    </section>
+</Layout>

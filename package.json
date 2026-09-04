@@ -1,0 +1,27 @@
+{
+  "name": "website",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Personal website of Lukas Belka, an insurance and reinsurance expert focusing agentic ai.",
+  "keywords": [
+    "astro",
+    "personal website",
+    "portfolio"
+  ],
+  "license": "MIT",
+  "author": "lukasbelka",
+  "homepage": "https://lukasbelka.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukasbelka/website.git"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^7.2.9"
+  }
+}
